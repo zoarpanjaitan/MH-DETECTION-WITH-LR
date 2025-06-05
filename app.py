@@ -64,7 +64,7 @@ def prediksi_kalimat_LR(text):
     return hasil_label, confidence
 
 # Streamlit App
-st.set_page_config(page_title="Mental Health Classifier", page_icon="🧠", layout="centered")
+st.set_page_config(page_title="Mental Health Issue Detection", page_icon="🧠", layout="centered")
 st.title("🧠 Mental Health Issue Detection")
 st.markdown("-----------------------------")
 st.markdown("Tell what you are feeling honestly (bad/good) like you are confiding in your friend!!")
